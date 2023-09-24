@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --header-height: 4.5rem;
+  /*  fonts  */
+  --title-font: "Poppins", sans-serif;
+  --body-font: "DM Sans", sans-serif;
+}
+#header {
+  padding: 2px 2px;
+  height: 100px;
+  opacity: 0.8;
+  background-color: #33cb73;
+}
+.Logo {
+  font: 700 1.31rem;
+}
+.title {
+  font: 300 1.875rem var(--title-font);
+  color: black;
+  -webkit-font-smoothing: auto;
+}
+body {
+  background: #fbfbfb;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  font: 400 3rem;
+  align-items: center;
+  padding: 2px;
+}
+
+.container {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+}
+.nav .a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.caixa {
+  -webkit-font-smoothing: auto;
+  margin-top: 4rem;
+}
+.grid {
+  display: flex;
+  gap: 1rem;
+  float: right;
+}
+a {
+  color: black;
+  text-decoration: none;
+  float: left;
+  margin-left: 1rem;
+  padding: 10px;
+}
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+  position: relative;
+  top: 0px;
+  color: white;
+}
+nav a:hover {
+  color: #e7550c;
+  text-decoration: underline;
+}
+nav ul li {
+  text-align: center;
+}
+nav ul li a {
+  transition: color 0.2s;
+  position: relative;
+}
+ul a {
+  text-decoration: none;
+}
+.nav ul li a:hover,
+nav ul li a.active {
+  color: #e7550c;
+}
+
+.main {
+  margin-top: var(--header-height);
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+section {
+  text-align: center;
+}
+.nome p {
+  margin-top: 5%; /* Posiciona o p a 5% da altura do contêiner */
+  left: 30%; /* Posiciona o p a 30% da largura do contêiner */
+  color: #dd9929; /* Cor do texto */
+  padding: 10px; /* Espaçamento interno para o texto */
+  padding-top: 20px;
+  font: 500 2rem var(--title-font);
+}
+
+/*==Cards==*/
+
+.card {
+  padding: 3.625rem 2rem;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.08);
+  border: 0.25rem solid #d0901e;
+  border-radius: 12px;
+  text-align: center;
+  display: inline-block;
+  background: #f9f9f7;
+  width: 40%;
+  height: 20%;
+  box-sizing: border-box;
+  font-size: 16px;
+  position: relative;
+  transition: all 0.5s linear;
+  justify-content: space-evenly;
+}
+.Card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  border-style: none;
+  border-radius: 10px;
+}
+.card:hover {
+  box-shadow: 0 0 8px #e6dd96;
+  border: 1px solid #dd9929;
+  background-color: #dd9929;
+}
+.card:hover p {
+  scale: 1.3;
+  transition: all 0.5s linear;
+}
+#imagem {
+  -webkit-font-smoothing: antialiased;
+  object-fit: contain;
+}
