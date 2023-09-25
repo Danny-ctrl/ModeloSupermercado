@@ -128,24 +128,32 @@ section {
 .card {
   width: 140px;
   height: 140px;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.08);
+
   border: 0.25rem solid #d0901e;
   border-radius: 12px;
   display: flex;
   background: #f9f9f7;
   font-size: 14px;
-  position: relative;
   justify-content: space-around;
   padding: 1rem 1.5rem;
   font: 300 var(--title-font);
   max-height: 250px;
-  margin-left: 32px;
+  margin-left: 50px;
+  cursor: pointer;
 }
 .card p {
   width: 50%;
-  flex-direction: column;
+  flex-direction: arrow;
   text-align: start;
   padding-top: 10px;
+}
+.card.cor {
+  background: linear-gradient(to right, #0b3900, #f6f9ff);
+}
+.card.cor {
+}
+.card:first-child {
+  margin-left: 0;
 }
 .card:hover {
   box-shadow: 0 0 8px #e6dd96;
