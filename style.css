@@ -27,12 +27,14 @@ html {
   -webkit-font-smoothing: auto;
 }
 body {
-  background: #fbfbfb;
+  background: #f6f9ff;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   font: 400 3rem;
   align-items: center;
   padding: 2px;
+  width: 100%;
+  justify-content: center;
 }
 
 .container {
@@ -99,26 +101,31 @@ nav ul li a.active {
 
 .main {
   margin-top: var(--header-height);
-  width: 100%;
-  height: 100%;
-  display: block;
 }
 section {
   text-align: center;
+  padding: 35px;
 }
 .nome p {
   margin-top: 5%; /* Posiciona o p a 5% da altura do contêiner */
   left: 30%; /* Posiciona o p a 30% da largura do contêiner */
   color: #dd9929; /* Cor do texto */
   padding: 10px; /* Espaçamento interno para o texto */
-  padding-top: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   font: 500 2rem var(--title-font);
 }
 
 /*==Cards==*/
+.Card {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
 
+  border-style: none;
+  margin: 0 auto;
+}
 .card {
-  padding: 25px;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.08);
   border: 0.25rem solid #d0901e;
   border-radius: 12px;
@@ -130,17 +137,10 @@ section {
   transition: all 0.5s linear;
   justify-content: space-around;
   font: 300 var(--title-font);
-  flex-direction: row;
+
   font-size: 14px;
 }
-.Card {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  border-style: none;
-  margin-weight: 20px;
-}
+
 .card:hover {
   box-shadow: 0 0 8px #e6dd96;
   border: 1px solid #dd9929;
