@@ -128,8 +128,6 @@ section {
 .card {
   width: 140px;
   height: 140px;
-
-  border: 0.25rem solid #d0901e;
   border-radius: 12px;
   display: flex;
   background: #f9f9f7;
@@ -151,6 +149,7 @@ section {
   background: linear-gradient(to right, #0b3900, #f6f9ff);
 }
 .card.cor {
+  box-shadow: 20px 20px 50px -30px #049f76;
 }
 .card:first-child {
   margin-left: 0;
@@ -158,7 +157,7 @@ section {
 .card:hover {
   box-shadow: 0 0 8px #e6dd96;
   border: 1px solid #dd9929;
-  background-color: #dd9929;
+  background: linear-gradient(to right, #dd9929, #f6f9ff);
   transition: all 0.5s linear;
 }
 .card:hover p {
