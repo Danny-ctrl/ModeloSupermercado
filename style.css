@@ -15,7 +15,6 @@ html {
 #header {
   padding: 2px 2px;
   height: 100px;
-  opacity: 0.8;
   background-color: #33cb73;
 }
 .Logo {
@@ -121,7 +120,6 @@ section {
   display: flex;
   align-items: stretch;
   flex-direction: row;
-
   border-style: none;
   margin: 0 auto;
 }
@@ -147,7 +145,7 @@ section {
   margin-bottom: 16px;
 }
 .card.cor {
-  background: linear-gradient(to right, #0b3900, #f6f9ff);
+  background: linear-gradient(to right, #0b3900, #33cb73);
 }
 .card.cor {
   box-shadow: 20px 20px 50px -30px #049f76;
@@ -170,13 +168,19 @@ section {
   object-fit: contain;
 }
 
-@media screen and (max-width: 720px) {
-  .card {
+@media (max-width: 720px) {
+  .Card {
     flex-direction: column;
+  }
+  .card {
+    margin-bottom: 32px;
   }
   main {
     margin-left: 0;
     margin-bottom: 32px;
+  }
+  .card:first-child {
+    margin-left: 50px;
   }
   .card:last-child {
     margin-bottom: 0;
