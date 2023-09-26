@@ -109,7 +109,7 @@ section {
 .nome p {
   margin-top: 5%; /* Posiciona o p a 5% da altura do contêiner */
   left: 30%; /* Posiciona o p a 30% da largura do contêiner */
-  color: #dd9929; /* Cor do texto */
+  color: black; /* Cor do texto */
   padding: 10px; /* Espaçamento interno para o texto */
   padding-top: 30px;
   padding-bottom: 30px;
@@ -143,6 +143,8 @@ section {
   flex-direction: arrow;
   text-align: start;
   padding-top: 10px;
+  max-width: 240px;
+  margin-bottom: 16px;
 }
 .card.cor {
   background: linear-gradient(to right, #0b3900, #f6f9ff);
