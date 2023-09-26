@@ -135,7 +135,7 @@ section {
   justify-content: space-around;
   padding: 1rem 1.5rem;
   font: 300 var(--title-font);
-  max-height: 250px;
+  max-height: 460px;
   margin-left: 50px;
   cursor: pointer;
 }
@@ -168,4 +168,17 @@ section {
 #imagem {
   -webkit-font-smoothing: antialiased;
   object-fit: contain;
+}
+
+@media screen and (max-width: 720px) {
+  .card {
+    flex-direction: column;
+  }
+  main {
+    margin-left: 0;
+    margin-bottom: 32px;
+  }
+  .card:last-child {
+    margin-bottom: 0;
+  }
 }
