@@ -140,7 +140,6 @@ section {
   cursor: pointer;
 }
 .card p {
-  width: 50%;
   flex-direction: arrow;
   text-align: start;
   padding-top: 10px;
