@@ -171,6 +171,9 @@ section {
 }
 
 @media (max-width: 720px) {
+  .p {
+    font-size: 4px;
+  }
   .Card {
     flex-direction: column;
   }
