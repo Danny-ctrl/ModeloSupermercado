@@ -13,9 +13,11 @@ html {
   --body-font: "DM Sans", sans-serif;
 }
 #header {
-  padding: 2px 2px;
   height: 100px;
   background-color: #33cb73;
+}
+.Logo {
+  padding: 40px;
 }
 .Logo {
   font: 700 var(--title-font);
@@ -31,7 +33,6 @@ body {
   -webkit-font-smoothing: antialiased;
   font: 400 3rem;
   align-items: center;
-  padding: 2px;
   width: 100%;
   justify-content: center;
 }
@@ -92,6 +93,7 @@ nav ul li a {
 }
 ul a {
   text-decoration: none;
+  padding: 35px;
 }
 .nav ul li a:hover,
 nav ul li a.active {
