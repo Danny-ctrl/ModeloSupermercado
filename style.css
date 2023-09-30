@@ -127,9 +127,8 @@ section {
 .card {
   width: 160px;
   height: 160px;
-  border-radius: 12px;
+  border-radius: 25% 10%;
   display: flex;
-  background: #f9f9f7;
   font-size: 14px;
   justify-content: center;
   padding: 2rem 6rem;
@@ -158,8 +157,8 @@ section {
 
 .card:hover {
   box-shadow: 0 0 8px #e6dd96;
-  border: 1px solid #dd9929;
-  background: linear-gradient(to right, #dd9929, #f6f9ff);
+  border: 1px solid #eeeeee;
+  background: linear-gradient(to right, #dd9929, #e6dd96);
   transition: all 0.5s linear;
 }
 .card:hover p {
@@ -177,6 +176,13 @@ section {
   }
   .card {
     margin-bottom: 32px;
+    margin-left: 100px;
+    width: 60px;
+    height: 140px;
+    overflow: hidden;
+  }
+  .card p {
+    max-width: 150px;
   }
   main {
     margin-left: 0;
