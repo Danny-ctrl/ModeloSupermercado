@@ -63,7 +63,6 @@ body {
 }
 .grid {
   display: flex;
-  gap: 1rem;
   float: right;
 }
 a {
@@ -126,8 +125,8 @@ section {
   margin: 0 auto;
 }
 .card {
-  width: 140px;
-  height: 140px;
+  width: 160px;
+  height: 160px;
   border-radius: 12px;
   display: flex;
   background: #f9f9f7;
@@ -136,13 +135,9 @@ section {
   padding: 2rem 6rem;
   font: 300 var(--title-font);
   max-height: 460px;
-  margin-left: 80px;
+  margin-left: 250px;
   cursor: pointer;
   margin-bottom: 30px;
-}
-.break {
-  flex-basis: 100%;
-  height: 0;
 }
 .card p {
   flex-direction: arrow;
@@ -160,6 +155,7 @@ section {
 .card:first-child .third-child {
   margin-left: 0;
 }
+
 .card:hover {
   box-shadow: 0 0 8px #e6dd96;
   border: 1px solid #dd9929;
@@ -186,9 +182,7 @@ section {
     margin-left: 0;
     margin-bottom: 32px;
   }
-  .card:first-child {
-    margin-left: 50px;
-  }
+
   .card:last-child {
     margin-bottom: 0;
   }
