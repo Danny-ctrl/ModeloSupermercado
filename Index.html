@@ -9,7 +9,15 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
 
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     <title>Supermercado4Filhos</title>
   </head>
   <body>
@@ -24,7 +32,12 @@
         <div class="caixa">
           <ul class="grid">
             <li><a href="Index.html">Home</a></li>
-            <li><a href="Delivery.html">Delivery</a></li>
+            <li>
+              <span class="material-symbols-outlined">
+                shopping_cart_checkout
+              </span>
+              <a href="Delivery.html">Delivery</a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -36,21 +49,27 @@
         </div>
         <div class="Card">
           <div class="card cor">
+            <span class="material-symbols-outlined"> cancel </span>
             <p>LOJA - 01 UNIDADE VARGEM GRANDE</p>
           </div>
           <div class="card cor">
+            <span class="material-symbols-outlined"> cancel </span>
             <p>LOJA - 02 UNIDADE BARUERI</p>
           </div>
           <div class="card cor">
+            <span class="material-symbols-outlined"> cancel </span>
             <p>LOJA - 03 UNIDADE OSASCO</p>
           </div>
           <div class="card cor" onclick="carImagem()">
             <span id="imagem"></span>
+            <span class="material-symbols-outlined"> cancel </span>
             <p>LOJA - 04 UNIDADE CARAPICUÍBA</p>
           </div>
           <div class="card cor">
+            <span class="material-symbols-outlined"> cancel </span>
             <p>LOJA - 05 UNIDADE PARQUE IMPERIAL</p>
           </div>
+          <div class="toggle icon-marca-x"></div>
         </div>
       </section>
     </main>

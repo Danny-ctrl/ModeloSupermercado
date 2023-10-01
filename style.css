@@ -105,6 +105,24 @@ nav ul li a.active {
 section {
   text-align: center;
 }
+.toggle {
+  color: black;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+section .icon-marca-x {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: -1.5rem;
+  right: 1.5rem;
+  transition: 0.2s;
+}
+.icon-marca-x {
+  visibility: visible;
+  opacity: 1;
+  top: 1.5rem;
+}
 .nome p {
   margin-top: 1%; /* Posiciona o p a 5% da altura do contêiner */
   left: 30%; /* Posiciona o p a 30% da largura do contêiner */
