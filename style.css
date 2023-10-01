@@ -171,22 +171,38 @@ section {
 }
 
 @media (max-width: 720px) {
-  .p {
-    font-size: 4px;
+  html {
+    overflow-x: hidden;
+    position: relative;
+  }
+  .nome p {
+    font-size: 24px;
+    margin-left: 50px;
+  }
+  ul a {
+    margin-left: 55px;
+    padding: 50px;
+  }
+  .Logo {
+    padding: 10% 0;
   }
   .card {
     margin-bottom: 32px;
-    margin-left: 100px;
-    width: 60px;
+    margin-left: 55px;
+    width: 40px;
     height: 140px;
     overflow: hidden;
   }
   .card p {
-    max-width: 150px;
+    max-width: 120px;
+    margin-left: 55px;
+    text-align: justify;
   }
   main {
     margin-left: 0;
     margin-bottom: 32px;
+    max-width: 250px;
+    position: relative;
   }
 
   .card:last-child {
