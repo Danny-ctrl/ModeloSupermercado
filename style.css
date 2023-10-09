@@ -148,31 +148,22 @@ section .icon-marca-x {
 }
 .cardUnico {
   width: 160px;
-  height: 260px;
-  border-radius: 25% 10%;
+  height: 300px;
+  border-radius: 20px;
   overflow: hidden;
   font-size: 14px;
-  justify-content: center;
-  padding: 2rem 6rem;
   margin-left: 200px;
   cursor: pointer;
   transition: 0.5s;
   box-shadow: 0 10px 25px #0b3900;
 }
-.cardUnico h3 {
-  flex-direction: arrow;
-  text-align: start;
-  padding-top: 10px;
-  max-width: 240px;
-  margin-bottom: 16px;
-}
+
 .cardUnico.cor {
-  kground: #fff;
+  background: #fff;
   /* background: linear-gradient(to right, #0b3900, #33cb73);*/
-}
-.cardUnico.cor {
   /*box-shadow: 20px 20px 50px -30px #33cb73;*/
 }
+
 .cardUnico:first-child .third-child {
   margin-left: 0;
 }
@@ -180,31 +171,77 @@ section .icon-marca-x {
 .cardUnico:hover {
   background: #33cb73;
   /*background: linear-gradient(to right, #0b3900, #33cb73);*/
-  transform: scale(1.05);
+  transition: all 0.4s ease-in-out;
 }
 .cardUnico:hover .h3 {
   transform: scale (1.05);
   transition: all 0.5s linear;
 }
-.Card .cardUnico .cardizinho {
+.cardizinho .imagemCard {
   width: 100%;
   height: 40%;
-  background: #263238;
+  background: #33cb73;
   border-bottom-left-radius: 140px;
   border-bottom-right-radius: 140px;
   text-align: center;
+  transition: 0.5s linear;
 }
-.Card .cardUnico:nth-child(4) .cardizinho {
-  background: #263238
-    url("https://www.facebook.com/photo/?fbid=757972773000033&set=a.530086445788668&locale=pt_BR")
-    no-repeat right top fixed;
+.textCard h3 {
+  height: 60%;
+  align-itens: center;
+  justify=content: center;
+  padding: 0.5rem 0.5rem;
+  max-width: 240px;
+}
+.Card .cardUnico:nth-child(1) .cardizinho {
+  background: #33cb73;
   background-size: 100%;
   background-position: 50%;
 }
-#imagem {
+.Card .cardUnico:nth-child(1):hover .cardizinho {
+  background-color: #33cb73;
+}
+.Card .cardUnico:nth-child(2) .cardizinho {
+  background: url("https://www.facebook.com/photo/?fbid=757972773000033&set=a.530086445788668&locale=pt_BR")
+    no-repeat #33cb73;
+  background-size: 100%;
+  background-position: 50%;
+}
+.Card .cardUnico:nth-child(2):hover .cardizinho {
+  background-color: #33cb73;
+}
+.Card .cardUnico:nth-child(3) .cardizinho {
+  background: url("https://www.facebook.com/photo/?fbid=757972773000033&set=a.530086445788668&locale=pt_BR")
+    no-repeat #33cb73;
+  background-size: 100%;
+  background-position: 50%;
+}
+.Card .cardUnico:nth-child(3):hover .cardizinho {
+  background-color: #33cb73;
+}
+.Card .cardUnico:nth-child(4) .cardizinho {
+  background: url("https://www.facebook.com/photo/?fbid=757972773000033&set=a.530086445788668&locale=pt_BR")
+    no-repeat #33cb73;
+  background-size: 100%;
+  background-position: 50%;
+}
+.Card .cardUnico:nth-child(4):hover .cardizinho {
+  background-color: #33cb73;
+}
+.Card .cardUnico:nth-child(5) .cardizinho {
+  background: url("https://www.facebook.com/photo/?fbid=757972773000033&set=a.530086445788668&locale=pt_BR")
+    no-repeat #33cb73;
+  background-size: 100%;
+  background-position: 50%;
+}
+.Card .cardUnico:nth-child(5):hover .cardizinho {
+  background-color: #33cb73;
+}
+/*
+.imagem {
   -webkit-font-smoothing: antialiased;
   object-fit: contain;
-}
+}*/
 
 @media (max-width: 720px) {
   html {
