@@ -55,7 +55,6 @@ body {
   color: black;
   font-weight: bold;
   font-size: 22px;
-  text-decoration: none;
 }
 
 .caixa {
@@ -81,22 +80,11 @@ nav {
   top: 0px;
   color: white;
 }
-nav a:hover {
-  color: #e7550c;
-  text-decoration: underline;
-}
 nav a {
   text-align: center;
   transition: color 0.2s;
   position: relative;
-}
-a {
-  text-decoration: none;
   padding: 35px;
-}
-.nav a:hover,
-nav a.active {
-  color: #e7550c;
 }
 
 .main {
