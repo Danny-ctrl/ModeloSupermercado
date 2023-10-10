@@ -168,12 +168,12 @@ section .icon-marca-x {
 .cardUnico:hover {
   background: #33cb73;
   /*background: linear-gradient(to right, #0b3900, #33cb73);*/
-  transform: scale (1);
-  transition: 0.5s;
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
 }
 .cardUnico:hover .h3 {
-  transform: scale (1);
-  transition: 0.5s;
+  transform: scale (1.05);
+  transition: all 0.5s ease-in-out;
 }
 .cardizinho .imagemCard {
   width: 100%;
