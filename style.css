@@ -21,7 +21,7 @@ header {
   padding: 40px;
 }
 .Logo {
-  font: 700 var(--title-font);
+  font: 300 1.5rem var(--title-font);
 }
 .title {
   font: 300 1.875rem var(--title-font);
@@ -74,7 +74,7 @@ a {
   padding: 10px;
   text-transform: uppercase;
 }
-nav li {
+nav {
   display: inline;
   margin: 0 0 0 15px;
   position: relative;
@@ -85,19 +85,17 @@ nav a:hover {
   color: #e7550c;
   text-decoration: underline;
 }
-nav ul li {
+nav a {
   text-align: center;
-}
-nav ul li a {
   transition: color 0.2s;
   position: relative;
 }
-ul a {
+a {
   text-decoration: none;
   padding: 35px;
 }
-.nav ul li a:hover,
-nav ul li a.active {
+.nav a:hover,
+nav a.active {
   color: #e7550c;
 }
 
@@ -128,23 +126,23 @@ section .icon-marca-x {
 .nome h1 {
   margin-top: 1%; /* Posiciona o p a 5% da altura do contêiner */
   left: 30%; /* Posiciona o p a 30% da largura do contêiner */
-  color: black; /* Cor do texto */
+
   padding: 10px; /* Espaçamento interno para o texto */
   padding-top: 30px;
   padding-bottom: 30px;
-  font: 500 2rem var(--title-font);
+  font: 500 2rem #263238;
   text-transform: uppercase;
-  color: #263238;
+  color: #263238; /* Cor do texto */
 }
 
 /*==Cards==*/
 .Card {
   display: grid;
   width: 100%;
-  grid-template-columns: 300px 300px 300px;
+  grid-template-columns: 200px 200px 200px 200px;
   column-gap: 50px;
   row-gap: 50px;
-  padding: 0 4rem;
+  padding: 0 2rem;
 }
 .cardUnico {
   width: 160px;
@@ -152,10 +150,9 @@ section .icon-marca-x {
   border-radius: 20px;
   overflow: hidden;
   font-size: 14px;
-  margin-left: 200px;
+  margin-left: 160px;
   cursor: pointer;
-  transition: 0.5s;
-  box-shadow: 0 10px 25px #0b3900;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
 
 .cardUnico.cor {
@@ -171,11 +168,12 @@ section .icon-marca-x {
 .cardUnico:hover {
   background: #33cb73;
   /*background: linear-gradient(to right, #0b3900, #33cb73);*/
-  transition: all 0.4s ease-in-out;
+  transform: scale (1);
+  transition: 0.5s;
 }
 .cardUnico:hover .h3 {
-  transform: scale (1.05);
-  transition: all 0.5s linear;
+  transform: scale (1);
+  transition: 0.5s;
 }
 .cardizinho .imagemCard {
   width: 100%;
@@ -184,7 +182,8 @@ section .icon-marca-x {
   border-bottom-left-radius: 140px;
   border-bottom-right-radius: 140px;
   text-align: center;
-  transition: 0.5s linear;
+  transform: scale (1);
+  transition: 0.5s;
 }
 .textCard h3 {
   height: 60%;
@@ -228,20 +227,11 @@ section .icon-marca-x {
 .Card .cardUnico:nth-child(4):hover .cardizinho {
   background-color: #33cb73;
 }
-.Card .cardUnico:nth-child(5) .cardizinho {
-  background: url("https://www.facebook.com/photo/?fbid=757972773000033&set=a.530086445788668&locale=pt_BR")
-    no-repeat #33cb73;
-  background-size: 100%;
-  background-position: 50%;
-}
-.Card .cardUnico:nth-child(5):hover .cardizinho {
-  background-color: #33cb73;
-}
-/*
+
 .imagem {
   -webkit-font-smoothing: antialiased;
   object-fit: contain;
-}*/
+}
 
 @media (max-width: 720px) {
   html {
@@ -252,7 +242,7 @@ section .icon-marca-x {
     font-size: 24px;
     margin-left: 50px;
   }
-  ul a {
+  a {
     margin-left: 55px;
     padding: 50px;
   }
