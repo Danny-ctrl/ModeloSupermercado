@@ -3,8 +3,8 @@ function carImagem(){
 }
 /* abre e fecha o menu quando clicar no card e no icone x*/
 
-const section = document.querySelector('#main card ')
-const toggle = document.querySelectorAll('card .toggle')
+const section = document.querySelector('#main Card ')
+const toggle = document.querySelectorAll('cardunico .toggle')
 
 for (const element of toggle) {
   element.addEventListener('click', function () {
