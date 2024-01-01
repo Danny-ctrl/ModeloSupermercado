@@ -1,0 +1,48 @@
+@media (max-width: 900px) {
+  body {
+    overflow-x: hidden;
+    position: relative;
+    text-align: center;
+  }
+  .nome h1 {
+    font-size: 24px;
+    margin-left: 50px;
+  }
+  a {
+    margin-left: 55px;
+    padding: 50px;
+  }
+  .Logo {
+    padding: 10% 0;
+  }
+  .cardUnico {
+    background-position-x: 70vh;
+    align-itens: center;
+    margin-bottom: 32px;
+    margin-left: 55px;
+    width: 40px;
+    height: 140px;
+    overflow: hidden;
+  }
+  .cardUnico h3 {
+    max-width: 120px;
+    margin-left: 55px;
+    text-align: justify;
+  }
+  main {
+    margin-left: 0;
+    margin-bottom: 32px;
+    max-width: 250px;
+    position: relative;
+  }
+
+  .cardUnico:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  .cardUnico {
+    background-position-x: 30vh;
+  }
+}

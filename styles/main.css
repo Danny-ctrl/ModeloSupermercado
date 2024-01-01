@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --header-height: 4.5rem;
+  /*  fonts  */
+  --title-font: "Poppins", sans-serif;
+  --body-font: "DM Sans", sans-serif;
+}
+header {
+  height: 110px;
+
+  background-color: #33cb73;
+}
+.Logo {
+  padding: 40px;
+}
+.Logo {
+  font: 300 1.5rem var(--title-font);
+}
+.title {
+  font: 300 1.875rem var(--title-font);
+  color: black;
+  -webkit-font-smoothing: auto;
+}
