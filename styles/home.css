@@ -98,18 +98,32 @@ section {
 .custom-button {
   border-radius: 0 0 10px 10px;
   background: #fff;
+  border: none;
+  margin-top: 10px;
+  text-align: center;
 }
 h3 {
   font-size: 16px;
+  margin-top: 10px;
 }
 h4 {
   color: gray;
   font-size: 12px;
+  cursor: pointer;
+}
+.button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+}
+.material-icons {
+  margin-left: 6px;
 }
 .cardUnico .cardCor .button {
   background: #fff;
-  /* background: linear-gradient(to right, #0b3900, #33cb73);*/
-  /*box-shadow: 20px 20px 50px -30px #33cb73;*/
 }
 .custom-button:hover {
   background: #33cb73;
@@ -120,7 +134,6 @@ h4 {
 
 .cardUnico:hover {
   background: #33cb73;
-  /*background: linear-gradient(to right, #0b3900, #33cb73);*/
   transform: scale(1.05);
   transition: all 0.5s ease-in-out;
 }
