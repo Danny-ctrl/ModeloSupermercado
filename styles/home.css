@@ -96,10 +96,8 @@ section {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
 .custom-button {
-  border-radius: 0 0 10px 10px;
   background: #fff;
   border: none;
-  margin-top: 10px;
   text-align: center;
 }
 h3 {
@@ -122,8 +120,14 @@ h4 {
 .material-icons {
   margin-left: 6px;
 }
+.arruma-delivery{
+  padding 10px 20px;
+}
 .cardUnico .cardCor .button {
   background: #fff;
+}
+.cardUnico .button {
+  margin-top: 0;
 }
 .custom-button:hover {
   background: #33cb73;
