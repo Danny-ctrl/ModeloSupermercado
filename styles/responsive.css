@@ -17,7 +17,7 @@
   }
   .cardUnico {
     background-position-x: 70vh;
-    align-itens: center;
+    align-items: center;
     margin-bottom: 32px;
     margin-left: 55px;
     width: 40px;
@@ -44,5 +44,17 @@
 @media (min-width: 1440px) {
   .cardUnico {
     background-position-x: 30vh;
+  }
+}
+
+@media (min-width: 1700px) {
+  .cardUnico {
+    background-position-x: 40vw;
+  }
+}
+
+@media (max-height: 760px) {
+  .cardUnico {
+    background-position-y: 200px;
   }
 }
