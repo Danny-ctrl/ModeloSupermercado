@@ -1,38 +1,83 @@
 @media (max-width: 900px) {
-  body {
-    overflow-x: hidden;
+  header {
+    background-color: #ffff;
     position: relative;
-    text-align: center;
+    overflow: hidden;
   }
-  .nome h1 {
-    font-size: 24px;
-    margin-left: 50px;
+  .Logo {
+    font-size: 1.5em;
+    margin: 20px;
+    overflow: hidden;
+    white-space: nowrap; /*Impede que o texto quebre em várias linhas */
+    text-overflow: ellipsis; /* Adiciona reticências (...) se o texto for muito longo */
   }
-  a {
-    margin-left: 55px;
-    padding: 50px;
+
+  /* Define uma classe para o elemento que terá a imagem */
+  .Logo::before {
+    content: ""; /* Adiciona um conteúdo vazio para que a imagem possa ser aplicada */
+    display: block; /* Torna o conteúdo um bloco para poder definir largura, altura, etc. */
+    background-image: url("/assets/imagem_mobile.jpg"); /* Caminho para a imagem */
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
+    width: 100px; /* Largura da imagem (ajuste conforme necessário) */
+    height: 100px; /* Altura da imagem (ajuste conforme necessário) */
+    position: absolute; /* Permite posicionar a imagem de forma absoluta em relação ao elemento pai */
+    top: 100%; /* Posiciona a imagem no topo do elemento pai */
+    left: 0; /* Posiciona a imagem à esquerda do elemento pai */
+    z-index: -1; /*Garante que a imagem fique por tras do texto*/
   }
+
+  body {
+    background: #55b259;
+    overflow-y: hidden;
+  }
+  .nome {
+    font-size: 0.7em;
+    margin-left: 0;
+    overflow-x: visible;
+    text-align: justify;
+    white-space: nowrap;
+  }
+
   .Logo {
     padding: 10% 0;
   }
-  .cardUnico {
-    background-position-x: 70vh;
-    align-items: center;
-    margin-bottom: 32px;
-    margin-left: 55px;
-    width: 40px;
-    height: 140px;
-    overflow: hidden;
+  .Card {
+    display: flex;
+    flex-direction: column; /* Altera a direção do flex para coluna */
+    align-items: center; /* Centraliza os cards ao longo do eixo transversal (vertical) */
   }
-  .cardUnico h3 {
-    max-width: 120px;
-    margin-left: 55px;
+  .imagemCard {
+    display: none;
+  }
+  .custom-button {
+    display: none;
+  }
+  .button {
+    display: none;
+  }
+  .cardUnico {
+    background-color: #ffff;
+    background-position-x: 10vh;
+    align-items: center;
+    width: 180px;
+    height: 60px;
+    overflow: hidden;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 1px;
+    color: #f5821f;
+  }
+
+  .h3 {
+    max-width: 70px;
+    margin-left: 0;
     text-align: justify;
+    white-space: nowrap;
   }
   main {
     margin-left: 0;
-    margin-bottom: 32px;
-    max-width: 250px;
+    margin-bottom: 10px;
+    max-width: 100px;
     position: relative;
   }
 

@@ -80,7 +80,7 @@ section {
 .Card {
   display: grid;
   width: 100%;
-  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-columns: 300px 300px 300px;
   column-gap: 50px;
   row-gap: 50px;
   padding: 0 2rem;
@@ -99,13 +99,14 @@ section {
   background: #fff;
   border: none;
   text-align: center;
+  color: gray;
 }
 h3 {
   font-size: 16px;
   margin-top: 10px;
 }
 h4 {
-  color: gray;
+  
   font-size: 12px;
   cursor: pointer;
 }
@@ -130,14 +131,17 @@ h4 {
   margin-top: 0;
 }
 .custom-button:hover {
-  background: #33cb73;
+  background: #55B259;
+  color:black;
+  
 }
+
 .cardUnico:first-child .third-child {
   margin-left: 0;
 }
 
 .cardUnico:hover {
-  background: #33cb73;
+  background: #55B259;
   transform: scale(1.05);
   transition: all 0.5s ease-in-out;
 }
@@ -148,7 +152,7 @@ h4 {
 .cardizinho .imagemCard {
   width: 100%;
   height: 40%;
-  background: #33cb73;
+  background: #55B259;/*#33CB73*/
   border-bottom-left-radius: 140px;
   border-bottom-right-radius: 140px;
   text-align: center;
@@ -163,39 +167,39 @@ h4 {
   max-width: 240px;
 }
 .Card .cardUnico:nth-child(1) .cardizinho {
-  background: #33cb73;
+  background: #55B259;
   background-size: 100%;
   background-position: 50%;
 }
 .Card .cardUnico:nth-child(1):hover .cardizinho {
-  background-color: #33cb73;
+  background-color: #55B259;
 }
 .Card .cardUnico:nth-child(2) .cardizinho {
   background: url("https://www.facebook.com/photo/?fbid=757972773000033&set=a.530086445788668&locale=pt_BR")
-    no-repeat #33cb73;
+    no-repeat #55B259;
   background-size: 100%;
   background-position: 50%;
 }
 .Card .cardUnico:nth-child(2):hover .cardizinho {
-  background-color: #33cb73;
+  background-color: #55B259;
 }
 .Card .cardUnico:nth-child(3) .cardizinho {
   background: url("https://www.facebook.com/photo/?fbid=757972773000033&set=a.530086445788668&locale=pt_BR")
-    no-repeat #33cb73;
+    no-repeat #55B259;
   background-size: 100%;
   background-position: 50%;
 }
 .Card .cardUnico:nth-child(3):hover .cardizinho {
-  background-color: #33cb73;
+  background-color: #55B259;
 }
 .Card .cardUnico:nth-child(4) .cardizinho {
   background: url("https://www.facebook.com/photo/?fbid=757972773000033&set=a.530086445788668&locale=pt_BR")
-    no-repeat #33cb73;
+    no-repeat #55B259;
   background-size: 100%;
   background-position: 50%;
 }
 .Card .cardUnico:nth-child(4):hover .cardizinho {
-  background-color: #33cb73;
+  background-color: #55B259;
 }
 .material-symbols-outlined {
   font-size: 24px;
