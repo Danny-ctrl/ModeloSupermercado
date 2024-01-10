@@ -8,9 +8,11 @@ body {
   justify-content: center;
 }
 
-.container {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+
+.imagemLogo img{
+ max-width: 100%;
+ max-height: 300px;
+  object-fit: cover;
 }
 
 .nav {
@@ -31,10 +33,7 @@ body {
   -webkit-font-smoothing: auto;
   margin-top: 4rem;
 }
-.grid {
-  display: grid;
-  float: right;
-}
+
 a {
   color: black;
   text-decoration: none;
@@ -44,7 +43,7 @@ a {
   text-transform: uppercase;
 }
 nav {
-  display: inline;
+ 
   margin: 0 0 0 15px;
   position: relative;
   top: 0px;
@@ -71,7 +70,7 @@ section {
 
   padding: 10px; /* Espaçamento interno para o texto */
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
   font: 500 2rem #263238;
   text-transform: uppercase;
   color: #263238; /* Cor do texto */
@@ -108,18 +107,20 @@ h3 {
   margin-top: 10px;
 }
 h4 {
-  
   font-size: 12px;
   cursor: pointer;
 }
 .button {
   display: flex;
   align-items: center;
+  justify-content:center;
   cursor: pointer;
-  margin: 0 auto;
+  margin: 0 auto 10px;
   margin-bottom: 10px;
   padding: 10px 20px;
+  margin:0 0 0 16px;
 }
+
 .material-icons {
   margin-left: 6px;
 }
@@ -133,7 +134,7 @@ h4 {
   margin-top: 0;
 }
 .custom-button:hover {
-  background: #55B259;
+  background: #3D834D;
   color:black;
   
 }
@@ -143,7 +144,7 @@ h4 {
 }
 
 .cardUnico:hover {
-  background: #55B259;
+  background: #3D834D;
   transform: scale(1.05);
   transition: all 0.5s ease-in-out;
 }
@@ -154,7 +155,7 @@ h4 {
 .cardizinho .imagemCard {
   width: 100%;
   height: 40%;
-  background: #55B259;/*#33CB73*/
+  background: #3D834D;/*#33CB73*/
   border-bottom-left-radius: 140px;
   border-bottom-right-radius: 140px;
   text-align: center;
@@ -169,39 +170,39 @@ h4 {
   max-width: 240px;
 }
 .Card .cardUnico:nth-child(1) .cardizinho {
-  background: #55B259;
+  background: #3D834D;
   background-size: 100%;
   background-position: 50%;
 }
 .Card .cardUnico:nth-child(1):hover .cardizinho {
-  background-color: #55B259;
+  background-color: #3D834D;
 }
 .Card .cardUnico:nth-child(2) .cardizinho {
   background: url("https://www.facebook.com/photo/?fbid=757972773000033&set=a.530086445788668&locale=pt_BR")
-    no-repeat #55B259;
+    no-repeat #3D834D;
   background-size: 100%;
   background-position: 50%;
 }
 .Card .cardUnico:nth-child(2):hover .cardizinho {
-  background-color: #55B259;
+  background-color: #3D834D;
 }
 .Card .cardUnico:nth-child(3) .cardizinho {
   background: url("https://www.facebook.com/photo/?fbid=757972773000033&set=a.530086445788668&locale=pt_BR")
-    no-repeat #55B259;
+    no-repeat #3D834D;
   background-size: 100%;
   background-position: 50%;
 }
 .Card .cardUnico:nth-child(3):hover .cardizinho {
-  background-color: #55B259;
+  background-color: #3D834D;
 }
 .Card .cardUnico:nth-child(4) .cardizinho {
   background: url("https://www.facebook.com/photo/?fbid=757972773000033&set=a.530086445788668&locale=pt_BR")
-    no-repeat #55B259;
+    no-repeat #3D834D;
   background-size: 100%;
   background-position: 50%;
 }
 .Card .cardUnico:nth-child(4):hover .cardizinho {
-  background-color: #55B259;
+  background-color: #3D834D;
 }
 .material-symbols-outlined {
   font-size: 24px;

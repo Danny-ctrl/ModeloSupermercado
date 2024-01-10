@@ -14,14 +14,16 @@ html {
 }
 header {
   height: 110px;
-  background-color: #55b259;
+  background-color: #3d834d;
+  display: flex;
+  flex-direction: collumn;
 }
 .Logo {
   padding: 40px;
-}
-.Logo {
   font: 300 1.5rem var(--title-font);
+  margin-bottom: 10px;
 }
+
 .title {
   font: 300 1.875rem var(--title-font);
   color: black;

@@ -13,10 +13,10 @@
   }
 
   /* Define uma classe para o elemento que terá a imagem */
-  .Logo::before {
-    content: ""; /* Adiciona um conteúdo vazio para que a imagem possa ser aplicada */
+  body:before {
+    content: " "; /* Adiciona um conteúdo vazio para que a imagem possa ser aplicada */
     display: block; /* Torna o conteúdo um bloco para poder definir largura, altura, etc. */
-    background-image: url("/assets/imagem_mobile.jpg"); /* Caminho para a imagem */
+    background-image: url("/assets/imagem-mobile.jpg"); /* Caminho para a imagem */
     background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
     width: 100px; /* Largura da imagem (ajuste conforme necessário) */
     height: 100px; /* Altura da imagem (ajuste conforme necessário) */
@@ -27,10 +27,9 @@
   }
 
   body {
-    background: #55b259;
+    background: #3d834d;
     overflow-y: hidden;
   }
-
   .nome {
     font-size: 0.7em;
     margin-left: 0;
@@ -46,6 +45,7 @@
     display: flex;
     flex-direction: column; /* Altera a direção do flex para coluna */
     align-items: center; /* Centraliza os cards ao longo do eixo transversal (vertical) */
+    row-gap: 0;
   }
   .imagemCard {
     display: none;
@@ -57,7 +57,7 @@
     display: none;
   }
   .cardUnico {
-    background-color: #ffff;
+    background-color: #f5821f;
     background-position-x: 10vh;
     align-items: center;
     width: 180px;
@@ -66,7 +66,7 @@
     font-size: 14px;
     cursor: pointer;
     margin-bottom: 1px;
-    color: #f5821f;
+    color: #ffff;
   }
 
   .h3 {
@@ -76,6 +76,7 @@
     white-space: nowrap;
   }
   main {
+    margin-top: 60px;
     margin-left: 0;
     margin-bottom: 10px;
     max-width: 100px;
