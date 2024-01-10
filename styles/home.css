@@ -1,5 +1,5 @@
 body {
-  background: #f6f9ff;
+  background: #E6F0E8;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   font: 400 3rem;
@@ -87,7 +87,7 @@ section {
 }
 .cardUnico {
   justify=content: center;
-  width: 160px;
+  width: 200px;
   height: 350px;
   border-radius: 20px;
   overflow: hidden;
@@ -97,7 +97,6 @@ section {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
 .custom-button {
-  background: #fff;
   border: none;
   text-align: center;
   color: gray;

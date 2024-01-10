@@ -1,45 +1,27 @@
 @media (max-width: 900px) {
   header {
     background-color: #ffff;
-    position: relative;
-    overflow: hidden;
-  }
-  .Logo {
-    font-size: 1.5em;
-    margin: 20px;
-    overflow: hidden;
-    white-space: nowrap; /*Impede que o texto quebre em várias linhas */
-    text-overflow: ellipsis; /* Adiciona reticências (...) se o texto for muito longo */
-  }
-
-  /* Define uma classe para o elemento que terá a imagem */
-  body:before {
-    content: " "; /* Adiciona um conteúdo vazio para que a imagem possa ser aplicada */
-    display: block; /* Torna o conteúdo um bloco para poder definir largura, altura, etc. */
-    background-image: url("/assets/imagem-mobile.jpg"); /* Caminho para a imagem */
-    background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
-    width: 100px; /* Largura da imagem (ajuste conforme necessário) */
-    height: 100px; /* Altura da imagem (ajuste conforme necessário) */
-    position: absolute; /* Permite posicionar a imagem de forma absoluta em relação ao elemento pai */
-    top: 100%; /* Posiciona a imagem no topo do elemento pai */
-    left: 0; /* Posiciona a imagem à esquerda do elemento pai */
-    z-index: -1; /*Garante que a imagem fique por tras do texto*/
   }
 
   body {
     background: #3d834d;
     overflow-y: hidden;
+    overflow-x: hidden;
   }
   .nome {
     font-size: 0.7em;
     margin-left: 0;
+    margin-top: 1rem;
     overflow-x: visible;
     text-align: justify;
     white-space: nowrap;
   }
 
   .Logo {
-    padding: 10% 0;
+    image-rendering: crisp-edges;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 20px solid #fff;
   }
   .Card {
     display: flex;
