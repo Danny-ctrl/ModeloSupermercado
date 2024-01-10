@@ -13,6 +13,7 @@ body {
  max-width: 100%;
  max-height: 300px;
   object-fit: cover;
+  position:absolute;
 }
 
 .nav {
@@ -86,15 +87,15 @@ section {
   padding: 0 2rem;
 }
 .cardUnico {
-  justify=content: center;
+  justify-content: center;
   width: 200px;
   height: 350px;
-  border-radius: 20px;
+  border-radius: 10px;
   overflow: hidden;
   font-size: 14px;
   margin-left: 320px;
   cursor: pointer;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 .custom-button {
   border: none;
