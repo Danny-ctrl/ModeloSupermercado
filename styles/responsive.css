@@ -5,7 +5,7 @@
 
   body {
     background: #3d834d;
-    overflow-y: hidden;
+
     overflow-x: hidden;
   }
   .nome {
@@ -17,38 +17,32 @@
     white-space: nowrap;
   }
 
-  .Logo {
+  .Logo img {
     image-rendering: crisp-edges;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
-    border-bottom: 20px solid #fff;
+    border-bottom: 20px solid #ffff;
   }
   .Card {
     display: flex;
     flex-direction: column; /* Altera a direção do flex para coluna */
     align-items: center; /* Centraliza os cards ao longo do eixo transversal (vertical) */
-    row-gap: 0;
+    row-gap: 20px;
   }
   .imagemCard {
     display: none;
   }
-  .custom-button {
-    display: none;
-  }
-  .button {
-    display: none;
-  }
+
   .cardUnico {
-    background-color: #f5821f;
+    background: #e6f0e8;
     background-position-x: 10vh;
-    align-items: center;
-    width: 180px;
-    height: 60px;
+
+    width: 380px;
+    height: 150px;
     overflow: hidden;
     font-size: 14px;
     cursor: pointer;
     margin-bottom: 1px;
-    color: #ffff;
   }
 
   .h3 {
