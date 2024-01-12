@@ -55,11 +55,7 @@ nav a {
   transition: color 0.2s;
   position: relative;
   padding: 35px;
-}
-
-.main {
-  margin-top: var(--header-height);
-}
+}   
 section {
   text-align: center;
  
@@ -84,7 +80,7 @@ section {
   grid-template-columns: 200px 200px 280px;
   column-gap: 50px;
   row-gap: 50px;
-  padding: 0 2rem;
+ 
 }
 .cardUnico {
   justify-content: center;

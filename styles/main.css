@@ -6,12 +6,7 @@
 html {
   scroll-behavior: smooth;
 }
-:root {
-  --header-height: 4.5rem;
-  /*  fonts  */
-  --title-font: "Poppins", sans-serif;
-  --body-font: "DM Sans", sans-serif;
-}
+
 header {
   height: 110px;
   background-color: #3d834d;
