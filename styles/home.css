@@ -1,19 +1,17 @@
 body {
-  background: #E6F0E8;
+  background: #e6f0e8;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
-  font: 400 3rem;
   align-items: center;
   width: 100%;
-  justify-content: center;
+  height: 100%;
 }
 
-
-.imagemLogo img{
- max-width: 100%;
- max-height: 300px;
+.imagemLogo img {
+  max-width: 100%;
+  max-height: 300px;
   object-fit: cover;
-  position:absolute;
+  position: absolute;
 }
 
 .nav {
@@ -44,7 +42,6 @@ a {
   text-transform: uppercase;
 }
 nav {
- 
   margin: 0 0 0 15px;
   position: relative;
   top: 0px;
@@ -55,16 +52,15 @@ nav a {
   transition: color 0.2s;
   position: relative;
   padding: 35px;
-}   
+}
 section {
   text-align: center;
- 
 }
 
 .nome h1 {
   margin-top: 1%; /* Posiciona o p a 5% da altura do contêiner */
   left: 30%; /* Posiciona o p a 30% da largura do contêiner */
-
+  font-family: "Poppins", sans-serif;
   padding: 10px; /* Espaçamento interno para o texto */
   padding-top: 50px;
   padding-bottom: 40px;
@@ -80,12 +76,11 @@ section {
   grid-template-columns: 200px 200px 280px;
   column-gap: 50px;
   row-gap: 50px;
- 
 }
 .cardUnico {
   justify-content: center;
   width: 200px;
-  height: 350px;
+  height: 380px;
   border-radius: 10px;
   overflow: hidden;
   font-size: 14px;
@@ -99,30 +94,31 @@ section {
   color: gray;
 }
 h3 {
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   margin-top: 10px;
 }
 h4 {
+  font-family: "Poppins", sans-serif;
   font-size: 12px;
   cursor: pointer;
 }
 .button {
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   cursor: pointer;
   margin: 0 auto 10px;
   margin-bottom: 10px;
   padding: 10px 20px;
-  margin:0 0 0 16px;
+  margin: 0 0 0 16px;
+  font-family: "Poppins", sans-serif;
 }
 
 .material-icons {
   margin-left: 6px;
 }
-.arruma-delivery{
-  padding 10px 20px;
-}
+
 .cardUnico .cardCor .button {
   background: #fff;
 }
@@ -130,9 +126,8 @@ h4 {
   margin-top: 0;
 }
 .custom-button:hover {
-  background: #3D834D;
-  color:black;
-  
+  background: #3d834d;
+  color: black;
 }
 
 .cardUnico:first-child .third-child {
@@ -140,7 +135,7 @@ h4 {
 }
 
 .cardUnico:hover {
-  background: #3D834D;
+  background: #3d834d;
   transform: scale(1.05);
   transition: all 0.5s ease-in-out;
 }
@@ -151,7 +146,7 @@ h4 {
 .cardizinho .imagemCard {
   width: 100%;
   height: 40%;
-  background: #3D834D;/*#33CB73*/
+  background: #3d834d; /*#33CB73*/
   border-bottom-left-radius: 140px;
   border-bottom-right-radius: 140px;
   text-align: center;
@@ -166,39 +161,39 @@ h4 {
   max-width: 240px;
 }
 .Card .cardUnico:nth-child(1) .cardizinho {
-  background: #3D834D;
+  background: #3d834d;
   background-size: 100%;
   background-position: 50%;
 }
 .Card .cardUnico:nth-child(1):hover .cardizinho {
-  background-color: #3D834D;
+  background-color: #3d834d;
 }
 .Card .cardUnico:nth-child(2) .cardizinho {
   background: url("https://www.facebook.com/photo/?fbid=757972773000033&set=a.530086445788668&locale=pt_BR")
-    no-repeat #3D834D;
+    no-repeat #3d834d;
   background-size: 100%;
   background-position: 50%;
 }
 .Card .cardUnico:nth-child(2):hover .cardizinho {
-  background-color: #3D834D;
+  background-color: #3d834d;
 }
 .Card .cardUnico:nth-child(3) .cardizinho {
   background: url("https://www.facebook.com/photo/?fbid=757972773000033&set=a.530086445788668&locale=pt_BR")
-    no-repeat #3D834D;
+    no-repeat #3d834d;
   background-size: 100%;
   background-position: 50%;
 }
 .Card .cardUnico:nth-child(3):hover .cardizinho {
-  background-color: #3D834D;
+  background-color: #3d834d;
 }
 .Card .cardUnico:nth-child(4) .cardizinho {
   background: url("https://www.facebook.com/photo/?fbid=757972773000033&set=a.530086445788668&locale=pt_BR")
-    no-repeat #3D834D;
+    no-repeat #3d834d;
   background-size: 100%;
   background-position: 50%;
 }
 .Card .cardUnico:nth-child(4):hover .cardizinho {
-  background-color: #3D834D;
+  background-color: #3d834d;
 }
 .material-symbols-outlined {
   font-size: 24px;
