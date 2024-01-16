@@ -7,30 +7,11 @@ body {
   height: 100%;
 }
 
-.imagemLogo img {
-  max-width: 100%;
-  max-height: 300px;
-  object-fit: cover;
-  position: absolute;
-}
-
-.nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: absolute;
-  width: 100%;
-}
 .nav .a {
   text-transform: uppercase;
   color: black;
   font-weight: bold;
   font-size: 22px;
-}
-
-.caixa {
-  -webkit-font-smoothing: auto;
-  margin-top: 4rem;
 }
 
 a {
@@ -41,18 +22,7 @@ a {
   padding: 10px;
   text-transform: uppercase;
 }
-nav {
-  margin: 0 0 0 15px;
-  position: relative;
-  top: 0px;
-  color: white;
-}
-nav a {
-  text-align: center;
-  transition: color 0.2s;
-  position: relative;
-  padding: 35px;
-}
+
 section {
   text-align: center;
 }
@@ -153,13 +123,7 @@ h4 {
   transform: scale (1);
   transition: 0.5s;
 }
-.textCard h3 {
-  height: 60%;
-  align-itens: center;
-  justify=content: center;
-  padding: 0.5rem 0.5rem;
-  max-width: 240px;
-}
+
 .Card .cardUnico:nth-child(1) .cardizinho {
   background: #3d834d;
   background-size: 100%;
@@ -194,41 +158,4 @@ h4 {
 }
 .Card .cardUnico:nth-child(4):hover .cardizinho {
   background-color: #3d834d;
-}
-.material-symbols-outlined {
-  font-size: 24px;
-}
-
-/*esconder a imagem inicalmente
-.hidden {
-  display: none;
-}
-*/
-/*.imagem-fullscreen {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-sive: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}*/
-h3 {
-  -webkit-font-smoothing: antialiased;
-}
-#imagem1 #imagem2 #imagem3 #imagem4 {
-  object-fit: contain;
-}
-.show {
-  opacity: 1;
-  visibility: visible;
-  height: 100vh;
-  width: 100vw;
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: grid;
-  place-content: center;
-  gap: 4rem;
 }
