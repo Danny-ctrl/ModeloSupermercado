@@ -114,6 +114,9 @@
     body {
       background: #569265;
     }
+    section {
+      margin-left: 1cm;
+    }
     main {
       margin-top: 0;
       margin-left: 0;
@@ -136,7 +139,7 @@
     }
 
     .cardUnico {
-      width: 300px;
+      width: 280px;
       margin-left: 250px;
       padding: 5px;
       align-items: center;
