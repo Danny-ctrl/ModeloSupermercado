@@ -138,6 +138,14 @@
     .cardUnico {
       margin-left: 250px;
       padding: 5px;
+      align-items: center;
+    }
+    .em {
+      align-items: center;
+    }
+    .button {
+      align-self: center;
+      margin-left: 60px;
     }
   }
 }
