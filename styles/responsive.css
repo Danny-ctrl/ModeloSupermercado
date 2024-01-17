@@ -1,9 +1,7 @@
 @media (max-width: 900px) {
- 
   header {
     background-color: #e6f0e8;
     height: 55px;
-  
   }
   main {
     margin-top: 40px;
@@ -28,7 +26,6 @@
     border-right: 15px solid transparent;
     border-bottom: 20px solid #e6f0e8;
     margin-top: -5px;
-    
   }
   body {
     background: #3d834d;
@@ -43,11 +40,10 @@
     overflow-x: visible;
     white-space: nowrap;
     text-align: center;
-  
   }
 
-  .h1{
-    padding-top:10px;
+  .h1 {
+    padding-top: 10px;
     font-size: 14px;
   }
 
@@ -68,7 +64,7 @@
     background: #e6f0e8;
     width: 350px;
     height: 80px;
-    margin-left:450px;
+    margin-left: 450px;
   }
   .em {
     width: 100%;
@@ -86,11 +82,7 @@
     font-size: 10px;
     margin-top: 05px;
     align-items: center;
-
   }
-  
-  }
-  
 
   @media (min-width: 1440px) {
     section {
@@ -118,36 +110,38 @@
   }
 
   @media (max-width: 500px) {
+    main {
+      margin-top: 0;
+    }
     header {
       height: 40px;
-      overflow: clip;
+      overflow: hidden;
     }
     .Logo {
       padding: 30px;
     }
     .Logo img {
-      width: 120%;
-      height: 240%;
+      width: 130%;
+      height: 100%;
       padding: 12px;
       margin: 0 0 8px 8px;
       margin-top: -25px;
-      border-bottom: 10px solid #e6f0e8;
-      object-fit:none;
+      border-bottom: 1px solid #e6f0e8;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
     }
     .nome {
       margin-left: 0;
       margin-top: 0;
-      font-size: 12px;
+      font-size: 10px;
     }
     .Card {
-      row-gap: 0;
-      overflow: hidden;
     }
     .cardUnico {
-      width: 280%;
-      height: 80%;
-      margin-left:200px;
-      font-size:8px;
+      width: 80%;
+      height: 40%;
+      margin-left: 10px;
+      font-size: 8px;
     }
     .h3 {
     }
