@@ -110,35 +110,38 @@
   }
 
   @media (max-width: 500px) {
+    body {
+      background: #569265;
+    }
     main {
       margin-top: 0;
+      margin-left: 0;
     }
     header {
-      height: 50px;
+      height: 60px;
       overflow: hidden;
     }
     .Logo {
       padding: 40px;
     }
     .Logo img {
-      width: 130%;
+      width: 135%;
       height: 100%;
-      padding: 12px;
-      margin: 0 0 8px 8px;
+      padding: 28px;
+      margin: 0 0 8px 18px;
       margin-top: -25px;
-      border-bottom: 1px solid #e6f0e8;
-      border-left: 10px solid transparent;
-      border-right: 10px solid transparent;
+      border-bottom: 15px solid #e6f0e8;
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
     }
-    .nome {
-      margin-left: 0;
+    .nome h1 {
+      margin-left: -5px;
       margin-top: 0;
-      font-size: 10px;
+      font-size: 14px;
     }
 
     .cardUnico {
-      height: 20%;
-      margin-left: 300px;
+      margin-left: 250px;
       padding: 5px;
     }
   }
