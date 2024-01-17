@@ -127,20 +127,12 @@
       height: 100%;
       padding: 40px;
     }
-    .Logo img {
-      width: 98%;
-      height: 100%;
-      padding: 15px;
-      margin: 0 8px 8px 18px;
-      margin-top: -25px;
-      border-bottom: 15px solid #e6f0e8;
-      border-left: 25px solid transparent;
-      border-right: 25px solid transparent;
-    }
+
     .nome h1 {
-      margin-left: -5px;
+      margin-left: -35px;
       margin-top: 0;
       font-size: 14px;
+      color: #e6f0e8;
     }
 
     .cardUnico {
