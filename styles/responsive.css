@@ -121,6 +121,9 @@
       overflow: hidden;
       position: relative;
     }
+    section {
+      margin-left: 0px;
+    }
     .Logo {
       width: 100%;
       height: 100%;
@@ -129,20 +132,27 @@
       transform: translateY(30px);
     }
     .Logo img {
+      width: 100%;
       object-fit: contain;
-      image-rendering: crisp-edges;
+      image-rendering: -webkit-optimize-contrast;
       border-left: 15px solid transparent;
       border-right: 15px solid transparent;
       border-bottom: 20px solid #e6f0e8;
       border-right: 25px solid transparent;
     }
     .nome h1 {
-      margin-left: -35px;
       margin-top: 0;
+      margin-left: -7px;
       font-size: 14px;
       color: #e6f0e8;
+      align-items: center;
     }
 
+    .Card {
+      width: 100%;
+      height: 100%;
+      margin-lef: 10px;
+    }
     .cardUnico {
       width: 280px;
       margin-left: 200px;
@@ -151,9 +161,7 @@
       position: relative;
       z-index: 1;
     }
-    .em {
-      align-items: center;
-    }
+
     .button {
       align-self: center;
       margin-left: 60px;
