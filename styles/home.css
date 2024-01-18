@@ -81,7 +81,7 @@ h4 {
   margin: 0 auto 10px;
   margin-bottom: 10px;
   padding: 10px 20px;
-  margin: 0 0 0 16px;
+  margin: 0 0 0 28px;
   font-family: "Poppins", sans-serif;
 }
 
@@ -90,13 +90,13 @@ h4 {
 }
 
 .cardUnico .cardCor .button {
-  background: #fff;
+  background: #ffff;
 }
 .cardUnico .button {
   margin-top: 0;
 }
 .custom-button:hover {
-  background: #3d834d;
+  background: #2964a4;
   color: black;
 }
 
@@ -105,7 +105,7 @@ h4 {
 }
 
 .cardUnico:hover {
-  background: #3d834d;
+  background: #2964a4;
   transform: scale(1.05);
   transition: all 0.5s ease-in-out;
 }
@@ -116,7 +116,7 @@ h4 {
 .cardizinho .imagemCard {
   width: 100%;
   height: 40%;
-  background: #3d834d; /*#33CB73*/
+  background: #2964a4;
   border-bottom-left-radius: 140px;
   border-bottom-right-radius: 140px;
   text-align: center;
@@ -125,37 +125,28 @@ h4 {
 }
 
 .Card .cardUnico:nth-child(1) .cardizinho {
-  background: #3d834d;
+  background: #2964a4;
   background-size: 100%;
   background-position: 50%;
 }
 .Card .cardUnico:nth-child(1):hover .cardizinho {
-  background-color: #3d834d;
+  background-color: #2964a4;
 }
 .Card .cardUnico:nth-child(2) .cardizinho {
   background: url("https://www.facebook.com/photo/?fbid=757972773000033&set=a.530086445788668&locale=pt_BR")
-    no-repeat #3d834d;
+    no-repeat #2964a4;
   background-size: 100%;
   background-position: 50%;
 }
 .Card .cardUnico:nth-child(2):hover .cardizinho {
-  background-color: #3d834d;
+  background-color: #2964a4;
 }
 .Card .cardUnico:nth-child(3) .cardizinho {
   background: url("https://www.facebook.com/photo/?fbid=757972773000033&set=a.530086445788668&locale=pt_BR")
-    no-repeat #3d834d;
+    no-repeat #2964a4;
   background-size: 100%;
   background-position: 50%;
 }
 .Card .cardUnico:nth-child(3):hover .cardizinho {
-  background-color: #3d834d;
-}
-.Card .cardUnico:nth-child(4) .cardizinho {
-  background: url("https://www.facebook.com/photo/?fbid=757972773000033&set=a.530086445788668&locale=pt_BR")
-    no-repeat #3d834d;
-  background-size: 100%;
-  background-position: 50%;
-}
-.Card .cardUnico:nth-child(4):hover .cardizinho {
-  background-color: #3d834d;
+  background-color: #2964a4;
 }
