@@ -1,0 +1,54 @@
+html {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+header {
+  width: 90%;
+  margin-top: 40px;
+  background-color: #2964a4;
+  padding: 10px;
+}
+.Logo img {
+  width: 116%;
+  height: 110%;
+  margin-top: 12px;
+}
+
+.bemvindo {
+  display: flex;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bemvindo h1 {
+  margin-top: 3%;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+  padding-top: 6px;
+  padding-bottom: 40px;
+  font: 3300 2rem;
+  text-transform: uppercase;
+  color: #263238;
+}
+.bemvindo span {
+  margin-top: 3%;
+  font-family: "Poppins", sans-serif;
+  padding: 10px; /* Espaçamento interno para o texto */
+  padding-top: 6px;
+  font: 300 2rem;
+}
+.bemvindo a {
+  border: none;
+  text-align: center;
+  color: #2964a4;
+  margin-top: 3%;
+  font-family: "Poppins", sans-serif;
+}
+.jornal-ofertas img {
+  width: 80%;
+  height: 50%;
+  align-items: center;
+}
