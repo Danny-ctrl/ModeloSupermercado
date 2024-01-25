@@ -53,3 +53,10 @@ header {
   align-items: center;
   margin-left: 50px;
 }
+
+@media (max-width: 400px) {
+  .bemvindo h1 {
+    font-size: 14px;
+    white-space: nowrap;
+  }
+}
