@@ -69,5 +69,7 @@ header {
     font-size: 12px;
     white-space: nowrap;
     color: black;
+    font-style: italic;
+    padding: 30px;
   }
 }
