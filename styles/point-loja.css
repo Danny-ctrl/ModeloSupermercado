@@ -55,8 +55,19 @@ header {
 }
 
 @media (max-width: 400px) {
+  .Logo {
+    padding: 0px;
+  }
+  .Logo img {
+    margin-top: 15px;
+  }
   .bemvindo h1 {
     font-size: 14px;
     white-space: nowrap;
+  }
+  .bemvindo span {
+    font-size: 12px;
+    white-space: nowrap;
+    color: black;
   }
 }
