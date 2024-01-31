@@ -49,37 +49,28 @@ section {
   cursor: pointer;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
-.custom-button {
-  border: none;
-  text-align: center;
-  color: gray;
+.textCard h4 {
+  margin-top: 10px;
+}
+.textCard {
+  padding-bottom: 25px;
 }
 h3 {
   font-family: "Poppins", sans-serif;
+  color: black;
   font-size: 16px;
-  margin-top: 10px;
+  margin-top: 16px;
+  text-align: center;
 }
+
 h4 {
+  color: gray;
   font-family: "Poppins", sans-serif;
+  border: none;
+  text-align: center;
   font-size: 12px;
   cursor: pointer;
 }
-.button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  margin: 0 auto 10px;
-  margin-bottom: 10px;
-  padding: 10px 20px;
-  margin: 0 0 0 28px;
-  font-family: "Poppins", sans-serif;
-}
-
-.material-icons {
-  margin-left: 6px;
-}
-
 .cardUnico .cardCor .button {
   background: #ffff;
 }
