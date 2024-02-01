@@ -115,8 +115,7 @@ h4 {
   background-color: #2964a4;
 }
 .Card .cardUnico:nth-child(2) .cardizinho {
-  background: url("https://www.facebook.com/photo/?fbid=757972773000033&set=a.530086445788668&locale=pt_BR")
-    no-repeat #2964a4;
+  background: url("") no-repeat #2964a4;
   background-size: 100%;
   background-position: 50%;
 }
@@ -124,8 +123,7 @@ h4 {
   background-color: #2964a4;
 }
 .Card .cardUnico:nth-child(3) .cardizinho {
-  background: url("https://www.facebook.com/photo/?fbid=757972773000033&set=a.530086445788668&locale=pt_BR")
-    no-repeat #2964a4;
+  background: url("") no-repeat #2964a4;
   background-size: 100%;
   background-position: 50%;
 }
