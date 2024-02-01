@@ -115,8 +115,8 @@ header {
     height: 100%;
   }
   .jornal-ofertas img {
-    width: 100%;
+    width: 90%;
     height: 100%;
-    margin-left: 20px;
+    margin-left: 10px;
   }
 }
