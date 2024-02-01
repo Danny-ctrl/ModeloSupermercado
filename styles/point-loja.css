@@ -39,6 +39,7 @@ header {
   padding-top: 6px;
   font: 300 1rem;
   color: #263238;
+  font-weight: bold;
 }
 .bemvindo a {
   border: none;
@@ -102,7 +103,6 @@ header {
     font-size: 10px;
     white-space: nowrap;
     color: black;
-    font-style: italic;
     padding: 30px;
   }
   .button {
@@ -117,5 +117,6 @@ header {
   .jornal-ofertas img {
     width: 80%;
     height: 80%;
+    margin-left: 20px;
   }
 }
