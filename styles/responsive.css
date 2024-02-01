@@ -160,10 +160,6 @@
       z-index: 1;
     }
 
-    .button {
-      align-self: center;
-      margin-left: 60px;
-      z-index: 2;
-    }
+    
   }
 }

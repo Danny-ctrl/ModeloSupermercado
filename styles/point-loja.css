@@ -19,9 +19,6 @@ header {
 .bemvindo {
   display: flex;
   align-items: center;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 .bemvindo h1 {
   margin-top: 3%;
@@ -32,21 +29,24 @@ header {
   font: 3300 2rem;
   text-transform: uppercase;
   color: #263238;
+  border: none;
 }
 .bemvindo span {
   margin-top: 3%;
   font-family: "Poppins", sans-serif;
   padding: 10px; /* Espaçamento interno para o texto */
   padding-top: 6px;
-  font: 300 2rem;
+  font: 300 1rem;
+  color: #263238;
 }
 .bemvindo a {
   border: none;
-  text-align: center;
-  color: #2964a4;
+  margin-left: 10px;
+  color: #263238;
   margin-top: 3%;
   font-family: "Poppins", sans-serif;
 }
+
 .button {
   display: flex;
   align-items: center;
@@ -57,10 +57,14 @@ header {
   padding: 10px 20px;
   margin: 0 0 0 28px;
   font-family: "Poppins", sans-serif;
+  color: #263238;
 }
 
-.material-icons {
-  margin-left: 6px;
+.bemvindo img {
+  width: 24px;
+  height: 24px;
+  margin-top: 3%;
+  margin-left: -1%;
 }
 .jornal-ofertas img {
   width: 80%;
@@ -86,5 +90,10 @@ header {
     color: black;
     font-style: italic;
     padding: 30px;
+  }
+  .button {
+    align-self: center;
+    margin-left: 60px;
+    z-index: 2;
   }
 }
