@@ -110,4 +110,12 @@ header {
     margin-left: 60px;
     z-index: 2;
   }
+  .jornal-ofertas {
+    width: 100%;
+    height: 100%;
+  }
+  .jornal-ofertas img {
+    width: 100%;
+    height: 100%;
+  }
 }
