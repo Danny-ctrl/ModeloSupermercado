@@ -9,28 +9,29 @@ header {
   margin-top: 40px;
   background-color: #2964a4;
   padding: 10px;
+  margin-bottom: 40px;
 }
 .Logo img {
   width: 116%;
   height: 110%;
   margin-top: 12px;
 }
-
+.h1 {
+  margin-top: 10%;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+  padding-top: 18px;
+  padding-bottom: 35px;
+  color: #263238;
+  border: none;
+  font-size: 18px;
+}
 .bemvindo {
   display: flex;
   align-items: center;
+  margin-left: 80px;
 }
-.bemvindo h1 {
-  margin-top: 3%;
-  font-family: "Poppins", sans-serif;
-  padding: 10px;
-  padding-top: 6px;
-  padding-bottom: 40px;
-  font: 3300 2rem;
-  text-transform: uppercase;
-  color: #263238;
-  border: none;
-}
+
 .bemvindo span {
   margin-top: 3%;
   font-family: "Poppins", sans-serif;
@@ -59,6 +60,7 @@ header {
   margin: 0 0 0 28px;
   font-family: "Poppins", sans-serif;
   color: #263238;
+  font-weight: bold;
 }
 
 .bemvindo img {
@@ -79,18 +81,25 @@ header {
 }
 
 @media (max-width: 400px) {
+  header {
+    margin-bottom: 5px;
+  }
   .Logo {
     padding: 0px;
   }
   .Logo img {
     margin-top: 15px;
   }
-  .bemvindo h1 {
-    font-size: 14px;
+  .p {
+    font-size: 6px;
     white-space: nowrap;
   }
+  .bemvindo {
+    margin-left: -20px;
+  }
   .bemvindo span {
-    font-size: 12px;
+    display: column;
+    font-size: 10px;
     white-space: nowrap;
     color: black;
     font-style: italic;
