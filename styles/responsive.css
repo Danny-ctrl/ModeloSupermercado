@@ -34,18 +34,14 @@
     height: 100%;
     overflow: hidden;
   }
-  section {
+ section {
     margin-left: 1cm;
   }
   .nome {
-    margin-left: 1px;
+    margin-left: 2px;
     overflow-x: visible;
     white-space: nowrap;
   }
-
-  .h1 {
-  }
-
   .Card {
     display: flex;
     flex-direction: column; /* Altera a direção do flex para coluna */
@@ -65,7 +61,7 @@
     height: 80px;
     margin-left: 450px;
   }
-  .nome h1 {
+.nome h1 {
     color: #e6f0e8;
     font-size: 18px;
     padding-top: 40px;
@@ -110,7 +106,7 @@
     }
   }
 
-  @media (max-width: 400px) {
+  @media (max-width: 500px) {
     body {
       background: #304983;
     }
@@ -121,7 +117,7 @@
       width: 100%;
       height: 80px;
       overflow: hidden;
-      position: relative;
+     position: relative;
     }
     section {
       margin-left: 0px;
@@ -136,7 +132,7 @@
     }
     .Logo img {
       display:none;
-    }
+          }
     .nome h1 {
       padding-top: 0px 
       margin-top: 2px;
